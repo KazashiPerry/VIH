@@ -33,7 +33,7 @@
     
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top d-flex justify-content-around">
-      <button type="button" class="btn btn-primary" data-toggle="sidenav" data-target="#side-nav-1">
+      <button type="button" class="btn btn-danger" data-toggle="sidenav" data-target="#side-nav-1">
         <i class="fas fa-bars"></i>
       </button>
       <div>
@@ -47,7 +47,7 @@
       </div>
 
       <div>
-        <h3>Titulo</h3>
+        <h3>VIH</h3>
       </div>
       
     </nav>
@@ -573,7 +573,262 @@
                   Si va a una fiesta u otro lugar donde sabe que va a beber o consumir drogas, puede llevar un condón para que pueda reducir su riesgo de contraer o transmitir el VIH en caso de que tenga relaciones sexuales vaginales o anales.
                   Hay consejería, medicamentos y otros métodos disponibles para ayudarlo a dejar de consumir alcohol o drogas, o reducir la cantidad que consume. Hable con un consejero, médico u otro proveedor de atención médica sobre las opciones que podrían ser adecuadas para usted.
                 </p>
+                <!-- Línea divisora de texto -->
+                <hr class="my-4 hr-light">
+                <h2 class="subtitulo">
+                  EL VIH Y EL CONSUMO DE SUSTANCIAS
+                </h2>
+                <!-- Línea divisora de texto -->
+                <hr class="my-4 hr-light">
+                <P class="texto_principal">
+                  Los trastornos de consumo de sustancias, que son patrones problemáticos de consumo de alcohol u otras sustancias —como cocaína crack, metanfetaminas (“meth”), nitrito de amilo (“poppers”), 
+                  opioides recetados y heroína—, están estrechamente asociados al VIH y a otras enfermedades de transmisión sexual.
+                </P>
+                <p class="texto_principal">
+                  El consumo de drogas inyectables, puede ser una vía de transmisión directa del VIH si se comparten agujas, jeringas u otros implementos de inyección contaminados con el VIH. Sin embargo, beber alcohol e ingerir, fumar o inhalar drogas está asociado, también, a un mayor riesgo de contraer o transmitir el VIH. Estas sustancias alteran el juicio de las personas; esto puede llevarlas a tener comportamientos sexuales riesgosos (p. ej., tener relaciones sexuales sin condón o tener múltiples parejas sexuales), y estos comportamientos pueden aumentar sus probabilidades de contraer o transmitir el VIH.
+                  En las personas que tienen el VIH, el consumo de sustancias puede acelerar la evolución de la enfermedad, afectar la adherencia a la terapia antirretroviral (medicamentos para el VIH) y empeorar las consecuencias del VIH en general.
+                </p>
+                <!-- Línea divisora de texto -->
+                <hr class="my-4 hr-light">
+                <h3 style="font-size: 18pt;">
+                  Las sustancias comúnmente consumidas y el riesgo de infección por el VIH
+                </h3>
+                <!-- Línea divisora de texto -->
+                <hr class="my-4 hr-light">
+                <!--TABLA-->
+                <div class="row" style="padding-bottom: 3rem; font-size: 15pt;">
+                  <div class="col-4">
+                    <div class="list-group list-group-light" id="list-tab" role="tablist">
+                      <a class="list-group-item list-group-item-action px-3 border-0" id="list-Alcohol-list" data-mdb-toggle="list" 
+                      href="#list-Alcohol" role="tab" aria-controls="list-Alcohol" onclick="cambiarColor(this, 'active-1')">Alcohol</a>
+                      <a class="list-group-item list-group-item-action px-3 border-0" id="list-Opioides-list"
+                        data-mdb-toggle="list" href="#list-Opioides" role="tab" aria-controls="list-Opioides" onclick="cambiarColor(this, 'active-1')">Opioides</a>
+                      <a class="list-group-item list-group-item-action px-3 border-0" id="list-Metanfetaminas-list"
+                        data-mdb-toggle="list" href="#list-Metanfetaminas" role="tab" aria-controls="list-Metanfetaminas">Metanfetaminas</a>
+                      <a class="list-group-item list-group-item-action px-3 border-0" id="list-Cocaína-list"
+                        data-mdb-toggle="list" href="#list-Cocaína" role="tab" aria-controls="list-Cocaína">Cocaína <em>crack</em></a>
+                        <a class="list-group-item list-group-item-action px-3 border-0" id="list-Sustancias-list"
+                        data-mdb-toggle="list" href="#list-Sustancias" role="tab" aria-controls="list-Sustancias">Sustancias inhalantes</a>
+                    </div>
+                  </div>
+                  <div class="col-8">
+                    <div class="tab-content bg-image" id="nav-tabContent">
+                      <div class="tab-pane fade show active" id="list-Alcohol" role="tabpanel" aria-labelledby="list-home-list bg-image shadow-1-strong rounded">
+                        <img src="/assets/img/imagenes_de_tabla/alcohol.jpg" class="w-100" alt="Sample">
+                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+                          <div class="d-flex justify-content-top align-items-center h-100" style="margin-left: 3rem;">
+                            <p class="text-white mb-0">El consumo de alcohol en exceso, especialmente en atracón, puede ser un factor de riesgo importante porque se vincula a comportamientos sexuales riesgosos y, entre las personas con VIH, puede perjudicar el resultado del tratamiento.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="list-Opioides" role="tabpanel" aria-labelledby="list-Opioides-list bg-image shadow-1-strong rounded">
+                        <img src="/assets/img/imagenes_de_tabla/Opioides.jpg" class="w-100" alt="Sample">
+                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+                          <div class="d-flex justify-content-top align-items-center h-100" style="margin-left: 3rem;">
+                            <p class="text-white mb-0">
+                              Los opioides, una clase de droga que reduce el dolor, incluyen tanto a los medicamentos recetados como a la heroína. Se asocian a comportamientos de riesgo de transmisión del VIH, como compartir agujas estando infectado y tener relaciones sexuales riesgosas, y se han vinculado a un reciente brote de VIH.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="list-Metanfetaminas" role="tabpanel" aria-labelledby="list-Metanfetaminas-list bg-image shadow-1-strong rounded">
+                        <img src="/assets/img/imagenes_de_tabla/Metanfetaminas.jpg" class="w-100" alt="Sample">
+                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+                          <div class="d-flex justify-content-top align-items-center h-100" style="margin-left: 3rem;">
+                            <p class="text-white mb-0">
+                              El “meth” ha sido vinculado a comportamientos sexuales riesgosos que ponen a las personas en mayor riesgo de infección por el VIH. Puede ser inyectado, lo cual también aumenta el riesgo de transmisión del VIH si se comparten las agujas y los otros implementos de inyección.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="list-Cocaína" role="tabpanel" aria-labelledby="list-Cocaína-list bg-image shadow-1-strong rounded">
+                        <img src="/assets/img/imagenes_de_tabla/Cocaína.jpg" class="w-100" alt="Sample">
+                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+                          <div class="d-flex justify-content-top align-items-center h-100" style="margin-left: 3rem;">
+                            <p class="text-white mb-0">La cocaína crack es un estimulante que puede crear un ciclo de agotamiento rápido de recursos y búsqueda de otras formas de conseguir la droga, lo cual incluye intercambiar sexo por drogas o dinero, lo que, a su vez, incrementa el riesgo de infección por el VIH.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="list-Sustancias" role="tabpanel" aria-labelledby="list-Sustancias-list bg-image shadow-1-strong rounded">
+                        <img src="/assets/img/imagenes_de_tabla/Sustancias.jpg" class="w-100" alt="Sample">
+                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+                          <div class="d-flex justify-content-top align-items-center h-100" style="margin-left: 3rem;">
+                            <p class="text-white mb-0">
+                              El consumo de nitrito de amilo (“poppers”) ha sido asociado por mucho tiempo a comportamientos sexuales riesgosos, al consumo de drogas ilegales y a enfermedades de transmisión sexual entre los hombres gais y bisexuales.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                 <!-- Línea divisora de texto -->
+                 <hr class="my-4 hr-light">
+
                 
+                <!--CODIGO TABLA PARA PANTALLAS PEQUEÑAS-->
+
+
+                <!-- <div class="row">
+                  <div class="col-4">
+                    <div class="list-group list-group-light" id="list-tab" role="tablist">
+                      <a class="list-group-item list-group-item-action active px-3 border-0" id="list-Alcohol-list"
+                        data-mdb-toggle="list" href="#list-Alcohol" role="tab" aria-controls="list-Alcohol">Alcohol</a>
+                      <a class="list-group-item list-group-item-action px-3 border-0" id="list-Opioides-list"
+                        data-mdb-toggle="list" href="#list-Opioides" role="tab" aria-controls="list-Opioides">Opioides</a>
+                      <a class="list-group-item list-group-item-action px-3 border-0" id="list-Metanfetaminas-list"
+                        data-mdb-toggle="list" href="#list-Metanfetaminas" role="tab" aria-controls="list-Metanfetaminas">Metanfetaminas</a>
+                      <a class="list-group-item list-group-item-action px-3 border-0" id="list-Cocaína-list"
+                        data-mdb-toggle="list" href="#list-Cocaína" role="tab" aria-controls="list-Cocaína">Cocaína <em>crack</em></a>
+                        <a class="list-group-item list-group-item-action px-3 border-0" id="list-Sustancias-list"
+                        data-mdb-toggle="list" href="#list-Sustancias" role="tab" aria-controls="list-Sustancias">Sustancias inhalantes</a>
+                    </div>
+                  </div>
+                  <div class="col-8">
+                    <div class="tab-content" id="nav-tabContent">
+                      <div class="tab-pane fade show active" id="list-Alcohol" role="tabpanel"
+                        aria-labelledby="list-home-list">
+                        El consumo de alcohol en exceso, especialmente en atracón, puede ser un factor de riesgo importante porque se vincula a comportamientos sexuales riesgosos y, entre las personas con VIH, puede perjudicar el resultado del tratamiento.
+                      </div>
+                      <div class="tab-pane fade" id="list-Opioides" role="tabpanel" aria-labelledby="list-Opioides-list">
+                        Los opioides, una clase de droga que reduce el dolor, incluyen tanto a los medicamentos recetados como a la heroína. Se asocian a comportamientos de riesgo de transmisión del VIH, como compartir agujas estando infectado y tener relaciones sexuales riesgosas, y se han vinculado a un reciente brote de VIH.
+                      </div>
+                      <div class="tab-pane fade" id="list-Metanfetaminas" role="tabpanel" aria-labelledby="list-Metanfetaminas-list">
+                        El “meth” ha sido vinculado a comportamientos sexuales riesgosos que ponen a las personas en mayor riesgo de infección por el VIH. Puede ser inyectado, lo cual también aumenta el riesgo de transmisión del VIH si se comparten las agujas y los otros implementos de inyección.
+                      </div>
+                      <div class="tab-pane fade" id="list-Cocaína" role="tabpanel" aria-labelledby="list-Cocaína-list">
+                        La cocaína crack es un estimulante que puede crear un ciclo de agotamiento rápido de recursos y búsqueda de otras formas de conseguir la droga, lo cual incluye intercambiar sexo por drogas o dinero, lo que, a su vez, incrementa el riesgo de infección por el VIH.
+                      </div>
+                      <div class="tab-pane fade" id="list-Sustancias" role="tabpanel" aria-labelledby="list-Sustancias-list">
+                        El consumo de nitrito de amilo (“poppers”) ha sido asociado por mucho tiempo a comportamientos sexuales riesgosos, al consumo de drogas ilegales y a enfermedades de transmisión sexual entre los hombres gais y bisexuales.
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+
+
+                <!--CODIGO TABLA PARA PANTALLAS PEQUEÑAS-->
+
+                <div class="container-fluid mt-5 p-5 text-white rounded banner shadow-5">
+                  <h1>PREVENCIÓN DEL VIH</h1>
+                </div>
+                 <!-- Línea divisora de texto -->
+                 <hr class="my-4 hr-light">
+                <p class="texto_principal">
+                  Existen ahora más herramientas que nunca para prevenir el VIH. Puede usar estrategias, como la abstinencia (no tener relaciones sexuales), no compartir agujas nunca y usar condones de la manera correcta cada vez que tenga relaciones sexuales. También es posible que pueda aprovechar los medicamentos de prevención del VIH, como profilaxis prexposición (PrEP) y profilaxis posexposición (PEP). Si tiene el VIH, hay muchas medidas que puede tomar para prevenir transmitirlo a otras personas.
+                </p>
+                 <!-- Línea divisora de texto -->
+                 <hr class="my-4 hr-light">
+                <h2 class="subtitulo">
+                  Protegerse durante las relaciones sexuales
+                </h2>
+                 <!-- Línea divisora de texto -->
+                 <hr class="my-4 hr-light">
+                 <ul class="list-group texto_lista">
+                  <li class="list-group-item"><strong>Usa preservativos de látex: </strong>los preservativos son una forma efectiva de protegerse durante el contacto sexual. Los preservativos de látex son los más comunes y son efectivos para prevenir la transmisión del VIH y otras ETS</li>
+                  <li class="list-group-item"><strong>Utiliza lubricantes: </strong>el uso de lubricantes durante las relaciones sexuales puede ayudar a evitar el riesgo de rotura del preservativo y reducir el riesgo de infecciones.</li>
+                  <li class="list-group-item"><strong>Habla con tu pareja sobre su estado de salud: </strong>es importante hablar con tu pareja sobre su estado de salud y preguntarle si ha sido testeado para el VIH y otras ETS.</li>
+                  <li class="list-group-item"><strong>Usa barreras físicas: </strong>las barreras físicas, como las cortinas dental y los condones femeninos, pueden ayudar a protegerse durante las relaciones sexuales orales y vaginales.</li>
+                  <li class="list-group-item"><strong>Limita el número de parejas sexuales: </strong>cuantas más parejas sexuales tengas, mayor será el riesgo de contraer una ETS o el VIH. Trata de limitar el número de parejas sexuales para reducir el riesgo.</li>
+                  <li class="list-group-item"><strong>Usa métodos anticonceptivos: </strong>los métodos anticonceptivos, como las píldoras anticonceptivas y los dispositivos intrauterinos (DIUs), pueden ayudar a prevenir el embarazo, pero no protegen contra el VIH y otras ETS. Es importante utilizar métodos anticonceptivos junto con métodos de protección contra el VIH y otras ETS.</li>
+                  <li class="list-group-item"><strong>Considera la PrEP: </strong>la PrEP (profilaxis preexposición) es un medicamento que se toma de manera regular para reducir el riesgo de contraer el VIH. Es efectivo para personas que están en alto riesgo de contraer el VIH, como personas que tienen relaciones sexuales sin protección con personas que viven con el VIH.</li>
+                </ul>
+                 <!-- Línea divisora de texto -->
+                 <hr class="my-4 hr-light">
+                 <div class="container mt-4">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img src="/assets/img/metodos/vih2.jpg" alt="Descripción de la imagen 1" class="img-fluid shadow-lg">
+                    </div>
+                    <div class="col-md-4">
+                      <img src="/assets/img/metodos/vih4.jpg" alt="Descripción de la imagen 2" class="img-fluid shadow-lg">
+                    </div>
+                    <div class="col-md-4">
+                      <img src="/assets/img/metodos/pareja.jpg" alt="Descripción de la imagen 2" class="img-fluid shadow-lg">
+                    </div>
+                  </div>
+                  <img src="https://www.latercera.com/resizer/aeVqfM3ffemVHLoJUknk3Q5pRJc=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/LGVZZTPJCFGTHHBIKROZX6JRQE.jpeg" alt="" class="img-fluid shadow-lg" style="margin-top: 3rem; margin-bottom: 3rem;">
+                </div>
+                <!-- Línea divisora de texto -->
+                <hr class="my-4 hr-light">
+                <h2 class="subtitulo">
+                  Si tengo el VIH, ¿cuál es la mejor manera de proteger a los demás?
+                </h2>
+                <!-- Línea divisora de texto -->
+                <hr class="my-4 hr-light">
+                <ul class="list-group texto_lista" style="margin-bottom: 3rem; margin-top: 3rem;">
+                  <li class="list-group-item">Obtenga atención médica y tome medicamentos para tratar el VIH.</li>
+                  <li class="list-group-item">Los medicamentos para el VIH (llamados terapia antirretroviral o TAR) pueden reducir la cantidad de virus que tiene en la sangre (a la cual se la llama carga viral). Los medicamentos para el VIH pueden hacer que la carga viral llegue a niveles muy bajos, tan bajos que las pruebas no la pueden detectar (lo cual se llama tener una carga viral indetectable).</li>
+                  <li class="list-group-item">Las personas con el VIH que mantienen una carga viral indetectable (o mantienen la supresión viral) pueden vivir muchos años y de manera saludable. La supresión viral se define como tener menos de 200 copias de VIH por mililitro de sangre.</li>
+                  <li class="list-group-item">Si una persona tiene una carga viral indetectable, no transmitirá el VIH a su pareja durante las relaciones sexuales.</li>
+                  <li class="list-group-item">Tener una carga viral indetectable también previene la transmisión a otras personas a través del uso compartido de agujas, jeringas u otros implementos para la inyección de drogas, o de madre a hijo durante el embarazo, el parto y al amamantar.</li>
+                  <li class="list-group-item">La mayoría de las personas logran tener el virus bajo control dentro de un plazo de seis meses.</li>
+                  <li class="list-group-item">Tomar los medicamentos de la terapia antirretroviral no previene la transmisión de otras enfermedades de transmisión sexual (ETS).</li>
+                </ul>
+                <!-- Línea divisora de texto -->
+                <hr class="my-4 hr-light">
+                <div class="container-fluid mt-5 p-5 text-white rounded banner shadow-5">
+                  <h1>PRUEBA DEL VIH</h1>
+                </div>
+                <!-- Línea divisora de texto -->
+                <hr class="my-4 hr-light">
+                <p class="texto_principal">
+                  La prueba del VIH es un examen que se utiliza para determinar si una persona tiene el virus de la inmunodeficiencia humana (VIH). El VIH es un virus que ataca el sistema inmunitario y puede llevar a la enfermedad de inmunodeficiencia adquirida (SIDA) si no se trata.
+                </p>
+                <!-- Línea divisora de texto -->
+                <hr class="my-4 hr-light">
+                <!--LISTA-->
+                <ul class="list-group list-group-light mb-3" style="font-size: 18pt;">
+                  <li class="list-group-item">
+                    <h5 class="fw-bold" style="font-size: 22pt;">Pruebas de sangre</h5>
+                    <p class="text-muted mb-0 fw-bold">
+                      Las pruebas de sangre se realizan en un laboratorio y pueden detectar el VIH aproximadamente una semana después de la infección. Hay dos tipos principales de pruebas de sangre: pruebas de anticuerpos y pruebas de carga viral. Las pruebas de anticuerpos detectan anticuerpos que produce el cuerpo para combatir el VIH. Las pruebas de carga viral miden la cantidad de VIH en la sangre.
+                    </p>
+                    </li>
+                    <li class="list-group-item">
+                      <h5 class="fw-bold" style="font-size: 22pt;">Pruebas de saliva</h5>
+                      <p class="text-muted mb-0 fw-bold">
+                        Las pruebas de saliva se realizan en el hogar o en una clínica y pueden detectar el VIH aproximadamente un mes después de la infección.
+                      </p>
+                    </li>
+                    <li class="list-group-item">
+                      <h5 class="fw-bold" style="font-size: 22pt;"">Pruebas rápidas:</h5>
+                      <p class="text-muted mb-0 fw-bold">
+                        Las pruebas rápidas se realizan en el hogar o en una clínica y pueden detectar el VIH aproximadamente un mes después de la infección. Las pruebas rápidas utilizan una muestra de sangre, saliva o plasma para detectar el VIH.
+                      </p>
+                  </li>
+                  <li class="list-group-item">
+                    <h5 class="fw-bold" style="font-size: 22pt;"">Pruebas de PCR:</h5>
+                    <p class="text-muted mb-0 fw-bold">
+                      Las pruebas de PCR (reacción en cadena de la polimerasa) se realizan en un laborator
+                    </p>
+                </li>
+                </ul>
+                <!-- Línea divisora de texto -->
+                <hr class="my-4 hr-light">
+                <p class="texto_principal text-muted">
+                  El período de ventana del VIH es el tiempo transcurrido entre la infección por el VIH y la aparición de anticuerpos contra el virus en la sangre. Esto significa que durante este período, una persona puede estar infectada con el VIH pero una prueba de detección de anticuerpos del VIH daría un resultado negativo. El período de ventana del VIH puede durar de 2 a 12 semanas, pero en promedio dura alrededor de 4 semanas. Es importante tener en cuenta que durante este período, la persona infectada con el VIH puede transmitir el virus a otras personas. Por lo tanto, es importante practicar medidas de prevención del VIH, como el uso de condones, durante todas las relaciones sexuales.
+                </p>
+                <!-- Línea divisora de texto -->
+                <hr class="my-4 hr-light">
+                <h2 class="subtitulo">
+                  Autopruebas del VIH
+                </h2>
+                <!-- Línea divisora de texto -->
+                <hr class="my-4 hr-light">
+                <p class="texto_principal text-muted">
+                  Existen varias opciones de autopruebas de VIH disponibles en el mercado. Algunas de ellas son pruebas de orina, pruebas de saliva y pruebas de sangre. Las pruebas de saliva y orina suelen ser las más fáciles de usar, ya que solo requieren una muestra de saliva o orina y no necesitan un profesional de la salud para su aplicación. Las pruebas de sangre, por otro lado, requieren una muestra de sangre y deben ser administradas por un profesional de la salud.
+                  <br><br>
+                  Para hacerte una autoprueba de VIH, primero debes seleccionar el tipo de prueba que deseas utilizar y luego seguir las instrucciones del kit de prueba. Las pruebas de saliva y orina suelen ser muy fáciles de usar y generalmente incluyen instrucciones detalladas y fáciles de seguir. Si decides utilizar una prueba de sangre, puedes obtenerla en una clínica de salud o en una farmacia. Asegúrate de seguir cuidadosamente las instrucciones del profesional de la salud al realizarte la prueba.
+                  <br><br>
+                  Es importante tener en cuenta que las autopruebas de VIH no son tan precisas como las pruebas realizadas en un laboratorio y pueden dar resultados falsos negativos o falsos positivos. Por lo tanto, es importante confirmar cualquier resultado positivo con una prueba de laboratorio. Si te haces una autoprueba de VIH y obtienes un resultado positivo, debes acudir a un profesional de la salud para realizar una prueba de laboratorio y obtener un diagnóstico definitivo.
+                  <br>
+                </p>
+                <!-- Línea divisora de texto -->
+                <hr class="my-4 hr-light">
+
+
+
 
             </div>
             <div class="col-sm-2">
