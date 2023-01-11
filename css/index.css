@@ -1,4 +1,16 @@
-
+-webkit-text-size-adjust: 100%;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+font-family: "Open Sans", Arial, sans-serif;
+line-height: 1.6;
+font-size: 16px;
+color: #555555;
+font-weight: 300;
+box-sizing: border-box;
+width: 1000px;
+height: 666.667px;
+position: relative;
+transform-origin: 0px 0px 0px;
+transform: matrix(1, 0, 0, 1, 6.10352e-05, -0.333313);
 
 td:nth-child(1) {
   width: 30%;
