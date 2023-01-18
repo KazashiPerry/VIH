@@ -87,7 +87,7 @@
      
 
       <div>
-        <h3>VIH</h3>
+        <h3 class="text-danger">VIH</h3>
       </div>
       
     </nav>
@@ -123,7 +123,7 @@
 
 
 <div class="sidenav fixed-top sideNav" id="sideNav" style="z-index: 5;">
-  <div class="col-sm-2">
+  <div class="col-md-2 col-sm-10">
     
  
    
@@ -184,20 +184,20 @@
 
              <!--Texto principal-->
           <div class="row">
-            <div class="col-sm-2">
+            <div class="col-md-2">
               <!--DIVISION-->
             </div>
 
 
-            <div class="col-sm-8">
-              <h1 class="banner">INFORMACIÓN BÁSICA SOBRE EL VIH</h1>
+            <div class="col-sm-12 col-md-8">
+              <h1 class="banner" id="basica">INFORMACIÓN BÁSICA SOBRE EL VIH</h1>
               <div class="">
                 <p class="texto_principal">El virus de la inmunodeficiencia humana (VIH) es un virus que ataca el sistema inmunitario del cuerpo, especialmente las células llamadas linfocitos T CD4. El sistema inmunitario es la defensa del cuerpo contra 
                   las enfermedades y las infecciones. Cuando el VIH destruye o daña los linfocitos T CD4, el cuerpo se vuelve más vulnerable a otras infecciones y enfermedades.</p>
                 <p class="texto_principal text-muted">Si una persona tiene el VIH y no recibe tratamiento, el virus puede dañar gradualmente el sistema inmunitario y llevar a la infección por el sida (síndrome de inmunodeficiencia adquirida). 
                   El sida es la etapa más avanzada de la infección por el VIH y se caracteriza por la presencia de ciertas enfermedades o infecciones que indican que el sistema inmunitario está gravemente dañado</p>
               </div>
-              <h1 class="banner">ACERCA DEL VIH</h1>
+              <h1 class="banner" id="acerca-vih">ACERCA DEL VIH</h1>
               <h2 class="subtitulo">¿Qué es el VIH?</h2>
               <!-- Línea divisora de texto -->
               <hr class="my-4 hr-light">
@@ -380,9 +380,7 @@
               <!-- Línea divisora de texto -->
               <hr class="my-4 hr-light">
               <!--TRANSMICIÓN DEL VIH-->
-              <div class="container-fluid mt-5 p-5 text-white rounded banner shadow-5">
-                <h1>TRANSMICIÓN DEL VIH</h1>
-              </div>
+              <h1 class="banner" id="trans-vih">TRANSMICIÓN DEL VIH</h1>
               <!-- Línea divisora de texto -->
               <hr class="my-4 hr-light">
               <p class="texto_principal">
@@ -391,21 +389,21 @@
               </p>
               <!-- Línea divisora de texto -->
               <hr class="my-4 hr-light">
-              <ul class="texto_lista list-group">
+              <ul class="texto_lista list-group" style="font-size: 18pt;">
                 <li class="list-group-item">
-                  Relaciones sexuales sin protección: El VIH se puede transmitir durante el sexo anal, vaginal o oral sin protección, ya que estas actividades pueden permitir que el virus entre en contacto con los fluidos corporales de una persona y los de otra.
+                  <strong>Relaciones sexuales sin protección:</strong> El VIH se puede transmitir durante el sexo anal, vaginal o oral sin protección, ya que estas actividades pueden permitir que el virus entre en contacto con los fluidos corporales de una persona y los de otra.
+                </li>
+                <li class="list-group-item text-muted">
+                  <strong>Compartir agujas y jeringas:</strong> El VIH se puede transmitir al compartir agujas y jeringas contaminadas con sangre infectada.
                 </li>
                 <li class="list-group-item">
-                  Compartir agujas y jeringas: El VIH se puede transmitir al compartir agujas y jeringas contaminadas con sangre infectada.
-                </li>
-                <li class="list-group-item">
-                  Transmisión de madre a hijo: Las mujeres con VIH pueden transmitir el virus a sus hijos durante el embarazo, el parto o la lactancia.
+                  <strong>Transmisión de madre a hijo:</strong> Las mujeres con VIH pueden transmitir el virus a sus hijos durante el embarazo, el parto o la lactancia.
                 </li>
               </ul>
               
               <!-- Línea divisora de texto -->
               <hr class="my-4 hr-light">
-              <p class="texto_principal">
+              <p class="texto_principal text-muted">
                 Es importante destacar que el VIH no se puede transmitir a través del aire, del agua o por el contacto casual, como el beso o el apretón de manos. 
                 Además, el uso de condones y otros métodos anticonceptivos durante las relaciones sexuales y el no compartir agujas y jeringas son medidas efectivas para prevenir la transmisión del VIH.
               </p>
@@ -422,14 +420,14 @@
               </p>
                <!-- Línea divisora de texto -->
                <hr class="my-4 hr-light">
-               <ul class="texto_lista list-group">
+               <ul class="texto_lista list-group" style="font-size: 18pt;">
                 <li class="list-group-item">Las relaciones sexuales anales son el tipo de actividad sexual de mayor riesgo para contraer o transmitir el VIH.</li>
     
-                <li class="list-group-item">Ser el integrante receptivo de la pareja (bottom) es más riesgoso que ser el insertivo (top).</li>
+                <li class="list-group-item text-info">Ser el integrante receptivo de la pareja (bottom) es más riesgoso que ser el insertivo (top).</li>
     
                 <li class="list-group-item">Su riesgo de contraer el VIH es muy alto porque la mucosa que recubre el recto es delgada y puede permitir la entrada del VIH al cuerpo durante las relaciones sexuales anales.</li>
     
-                <li class="list-group-item">El insertivo también tiene riesgo porque el VIH puede entrar al cuerpo por el orificio que se encuentra en la punta del pene (uretra), por el prepucio (si el pene no está circuncidado) o por pequeños cortes, 
+                <li class="list-group-item text-warning">El insertivo también tiene riesgo porque el VIH puede entrar al cuerpo por el orificio que se encuentra en la punta del pene (uretra), por el prepucio (si el pene no está circuncidado) o por pequeños cortes, 
                   rasguños o llagas abiertas en cualquier parte del pene.</li>
                   <br>
               </ul>
@@ -464,11 +462,8 @@
                 <h2 class="subtitulo">
                   ¿Cuáles son algunas de las formas poco comunes en que se ha transmitido el VIH?
                 </h2>
-                <!-- Línea divisora de texto -->
-                <hr class="my-4 hr-light">
-                <p class="texto_principal">
-                  <em>¿Cuáles son algunas de las formas poco comunes en que se ha transmitido el VIH?</em>
-                </p>
+               
+               
                 <!-- Línea divisora de texto -->
                 <hr class="my-4 hr-light">
                 <ul class="list-group texto_lista">
@@ -489,10 +484,10 @@
                   Los líquidos corporales que pueden transmitir el VIH son:
                 </p> 
                 <ul style="font-size: 18pt;">
-                  <li class="">Sangre</li>
-                  <li class="">Leche materna</li>
-                  <li class="">Fluido seminal</li>
-                  <li class="">Fluido</li>
+                  <li class="text-danger">Sangre</li>
+                  <li class="text-success">Leche materna</li>
+                  <li class="text-info">Fluido seminal</li>
+                  <li class="text-warning">Fluido</li>
                 </ul>
                 <br>
                 <p class="" style="font-size: 18pt;">
@@ -501,9 +496,7 @@
                 <br>
                 <!-- Línea divisora de texto -->
                 <hr class="my-4 hr-light">
-                <div class="container-fluid mt-5 p-5 text-white rounded banner shadow-5">
-                  <h2>FORMAS EN QUE <strong>NO</strong> SE TRANSMITE EL VIH</h2>
-                </div>
+                <h2 class="">FORMAS EN QUE <strong>NO</strong> SE TRANSMITE EL VIH</h2>
                 <!-- Línea divisora de texto -->
                 <hr class="my-4 hr-light">
                 <h2 class="subtitulo">
@@ -515,17 +508,15 @@
                   El VIH no sobrevive por mucho tiempo fuera del cuerpo humano. El virus necesita entrar a las células del sistema inmune de una persona para reproducirse y sobrevivir, y no puede sobrevivir por mucho tiempo en el ambiente exterior.
                   El VIH se destruye rápidamente cuando se expone al aire, la luz solar directa y la calor, y también se puede destruir mediante el uso de productos químicos como el hipoclorito de sodio (lejía) y otros desinfectantes.
                 </p>
-                <ul class="list-group list-group-numbered texto_lista">
-                  <li class="list-group-item px-3 border-0 rounded-3 list-group-item-primary mb-2">Exposición al aire</li>
-                  <li class="list-group-item px-3 border-0 rounded-3 list-group-item-primary mb-2">Exposición a la luz solar directa</li>
-                  <li class="list-group-item px-3 border-0 rounded-3 list-group-item-primary mb-2">Exposición a la calor</li>
-                  <li class="list-group-item px-3 border-0 rounded-3 list-group-item-primary mb-2">Uso de productos químicos</li>
+                <ul class="list-group list-group-numbered texto_lista " >
+                  <li class="shadow-sm w-50 list-group-item px-3 border-0 rounded-3 list-group-item-danger mb-2 ">Exposición al aire</li>
+                  <li class="shadow-sm w-50 list-group-item px-3 border-0 rounded-3 list-group-item-danger mb-2">Exposición a la luz solar directa</li>
+                  <li class="shadow-sm w-50 list-group-item px-3 border-0 rounded-3 list-group-item-danger mb-2">Exposición a la calor</li>
+                  <li class="shadow-sm w-50 list-group-item px-3 border-0 rounded-3 list-group-item-danger mb-2">Uso de productos químicos</li>
                 </ul>
                  <!-- Línea divisora de texto -->
                  <hr class="my-4 hr-light">
-                 <div class="container-fluid mt-5 p-5 text-white rounded banner shadow-5">
-                  <h3>FACTORES QUE AUMENTAN EL RIESGO DE CONTRAER EL VIH</h3>
-                </div>
+                 <h2 class="bg-danger shadow-sm p-5 text-white">FACTORES QUE AUMENTAN EL RIESGO DE CONTRAER EL VIH</h2>
                 <!-- Línea divisora de texto -->
                 <hr class="my-4 hr-light">
                 <h2 class="subtitulo">
@@ -533,23 +524,17 @@
                 </h2>
                 <!-- Línea divisora de texto -->
                 <hr class="my-4 hr-light">
-                <br>
-                <h2 class="texto_principal">
-                  La carga viral
-                </h2>
-                <!-- Línea divisora de texto -->
-                <hr class="my-4 hr-light">
-                <br>
+
                 <p class="texto_principal">
                   Mientras más alta sea la carga viral de una persona, mayores serán sus probabilidades de transmitir el VIH.
                 </p>
                 <!-- Línea divisora de texto -->
                 <hr class="my-4 hr-light">
-                <ul class="list-group list-group-light list-group-small texto_lista">
+                <ul class="list-group list-group-light list-group-small texto_lista" style="font-size: 18pt;">
                   <li class="list-group-item">La carga viral es la cantidad de VIH que las personas infectadas tienen en la sangre.</li>
                   <li class="list-group-item">La carga viral es mayor durante la fase aguda de infección por el VIH, y sin el tratamiento para el VIH.</li>
                   <li class="list-group-item">Tomar los medicamentos para el VIH puede hacer que la carga viral llegue a niveles muy bajos, tan bajos que las pruebas no la pueden detectar (lo cual se llama tener una carga viral indetectable).</li>
-                  <li class="list-group-item">Las personas con el VIH que mantienen una carga viral indetectable (o mantienen la supresión viral) pueden vivir muchos años y de manera saludable. Tener una carga viral indetectable también ayuda a prevenir la transmisión del virus a otras personas a través de las relaciones sexuales o al compartir agujas, jeringas u otros implementos para la inyección de drogas, o de madre a hijo durante el embarazo, el parto y el amamantamiento.</li>
+                  <li class="list-group-item text-danger">Las personas con el VIH que mantienen una carga viral indetectable (o mantienen la supresión viral) pueden vivir muchos años y de manera saludable. Tener una carga viral indetectable también ayuda a prevenir la transmisión del virus a otras personas a través de las relaciones sexuales o al compartir agujas, jeringas u otros implementos para la inyección de drogas, o de madre a hijo durante el embarazo, el parto y el amamantamiento.</li>
                 </ul>
                 <!-- Línea divisora de texto -->
                 <hr class="my-4 hr-light">
@@ -562,8 +547,8 @@
                   Si tiene otra enfermedad de transmisión sexual (ETS), las probabilidades de que contraiga o transmita el VIH pueden ser mayores.
                 </p>
                 <!-- Línea divisora de texto -->
-                <hr class="my-4 hr-light">
-                <ul class="list-group list-group-flush list-group-sm texto_lista">
+                <hr class="my-4 hr-light"> 
+                <ul class="list-group list-group-flush list-group-sm texto_lista" style="font-size: 18pt;">
                   <li class="list-group-item">Hacerse las pruebas y recibir tratamiento para las enfermedades de transmisión sexual que tenga puede reducir sus probabilidades de contraer o transmitir el VIH y otras ETS.</li>
                   <li class="list-group-item">Si usted tiene el VIH y mantiene una carga viral indetectable, contraer una ETS no parece aumentar el riesgo de transmitir el VIH. Pero las ETS pueden causar otros problemas.</li>
                   <li class="list-group-item">Usar condones puede reducir sus probabilidades de contraer o transmitir las ETS que pueden transmitirse a través de los líquidos genitales, como la gonorrea, la clamidia y el VIH.</li>
@@ -571,15 +556,36 @@
                 <!-- Línea divisora de texto -->
                 <hr class="my-4 hr-light">
                 <h2>
-                  El consumo de drogas y el alcohol
+                  El consumo de <span class="text-danger">drogas</span> y el <span class="text-warning">alcohol.</span>
                 </h2>
                 <!-- Línea divisora de texto -->
                 <hr class="my-4 hr-light">
-                <ul class="list-group list-group-flush list-group-sm texto_lista">
-                  <li class="list-group-item">Estar ebrio o drogado afecta la capacidad de las personas para tomar decisiones seguras.</li>
-                  <li class="list-group-item">Si usted bebe alcohol, especialmente en atracón, o consume “drogas de diseño”, esto puede afectar su juicio, reducir sus inhibiciones y perjudicar las decisiones que tome sobre las relaciones sexuales o el consumo de drogas.</li>
+                <ul class="list-group list-group-flush list-group-sm texto_lista" style="font-size: 18pt;">
+                  <li class="list-group-item">Estar <strong>ebrio</strong> o <strong>drogado</strong> afecta la capacidad de las personas para tomar decisiones seguras.</li>
+                  <li class="list-group-item">Si usted bebe <span class="text-warning">alcohol</span>, especialmente en atracón, o consume “drogas de diseño”, esto puede afectar su juicio, reducir sus inhibiciones y perjudicar las decisiones que tome sobre las relaciones sexuales o el consumo de drogas.</li>
                   <li class="list-group-item">Hace que sea más probable que tenga relaciones sexuales no planificadas, le cueste más usar condones de la manera correcta en cada relación sexual, tenga más parejas sexuales o consuma otras drogas.</li>
                 </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <!-- Línea divisora de texto -->
                 <hr class="my-4 hr-light">
                 <br>
@@ -723,9 +729,7 @@
 
                 <!--CODIGO TABLA PARA PANTALLAS PEQUEÑAS-->
 
-                <div class="container-fluid mt-5 p-5 text-white rounded banner shadow-5">
-                  <h1>PREVENCIÓN DEL VIH</h1>
-                </div>
+                <h1 class="banner" id="preven">PREVENCIÓN DEL VIH</h1>
                  <!-- Línea divisora de texto -->
                  <hr class="my-4 hr-light">
                 <p class="texto_principal">
@@ -771,9 +775,9 @@
                 <!-- Línea divisora de texto -->
                 <hr class="my-4 hr-light">
                 <ul class="list-group texto_lista" style="margin-bottom: 3rem; margin-top: 3rem;">
-                  <li class="list-group-item">Obtenga atención médica y tome medicamentos para tratar el VIH.</li>
-                  <li class="list-group-item">Los medicamentos para el VIH (llamados terapia antirretroviral o TAR) pueden reducir la cantidad de virus que tiene en la sangre (a la cual se la llama carga viral). Los medicamentos para el VIH pueden hacer que la carga viral llegue a niveles muy bajos, tan bajos que las pruebas no la pueden detectar (lo cual se llama tener una carga viral indetectable).</li>
-                  <li class="list-group-item">Las personas con el VIH que mantienen una carga viral indetectable (o mantienen la supresión viral) pueden vivir muchos años y de manera saludable. La supresión viral se define como tener menos de 200 copias de VIH por mililitro de sangre.</li>
+                  <li class="list-group-item text-info">Obtenga atención médica y tome medicamentos para tratar el VIH.</li>
+                  <li class="list-group-item">Los medicamentos para el VIH (llamados <em>terapia <a href="https://www.paho.org/es/temas/terapia-antirretroviral#:~:text=La%20terapia%20antirretroviral%20(TAR)%20es,suprime%20la%20replicaci%C3%B3n%20del%20VIH.">antirretroviral</a> o TAR</em>) pueden reducir la cantidad de virus que tiene en la sangre (a la cual se la llama carga viral). Los medicamentos para el VIH pueden hacer que la carga viral llegue a niveles muy bajos, tan bajos que las pruebas no la pueden detectar (lo cual se llama tener una carga viral indetectable).</li>
+                  <li class="list-group-item">Las personas con el VIH que mantienen una carga viral indetectable (o mantienen la supresión viral) pueden vivir muchos años y de manera saludable. La supresión viral se define como tener <span class="text-danger">menos de 200 copias de VIH por mililitro de sangre.</span></li>
                   <li class="list-group-item">Si una persona tiene una carga viral indetectable, no transmitirá el VIH a su pareja durante las relaciones sexuales.</li>
                   <li class="list-group-item">Tener una carga viral indetectable también previene la transmisión a otras personas a través del uso compartido de agujas, jeringas u otros implementos para la inyección de drogas, o de madre a hijo durante el embarazo, el parto y al amamantar.</li>
                   <li class="list-group-item">La mayoría de las personas logran tener el virus bajo control dentro de un plazo de seis meses.</li>
@@ -781,14 +785,15 @@
                 </ul>
                 <!-- Línea divisora de texto -->
                 <hr class="my-4 hr-light">
-                <div class="container-fluid mt-5 p-5 text-white rounded banner shadow-5">
-                  <h1>PRUEBA DEL VIH</h1>
-                </div>
+                <h1 class="banner" id="prueba-vih">PRUEBA DEL VIH</h1>
                 <!-- Línea divisora de texto -->
                 <hr class="my-4 hr-light">
                 <p class="texto_principal">
                   La prueba del VIH es un examen que se utiliza para determinar si una persona tiene el virus de la inmunodeficiencia humana (VIH). El VIH es un virus que ataca el sistema inmunitario y puede llevar a la enfermedad de inmunodeficiencia adquirida (SIDA) si no se trata.
                 </p>
+                <!-- Línea divisora de texto -->
+                <hr class="my-4 hr-light">
+                <img src="/assets/img/medical2.jpg" alt="" width="100%">
                 <!-- Línea divisora de texto -->
                 <hr class="my-4 hr-light">
                 <!--LISTA-->
@@ -799,6 +804,7 @@
                       Las pruebas de sangre se realizan en un laboratorio y pueden detectar el VIH aproximadamente una semana después de la infección. Hay dos tipos principales de pruebas de sangre: pruebas de anticuerpos y pruebas de carga viral. Las pruebas de anticuerpos detectan anticuerpos que produce el cuerpo para combatir el VIH. Las pruebas de carga viral miden la cantidad de VIH en la sangre.
                     </p>
                     </li>
+                    <img src="/assets/img/pruebas.jpg" width="100%" alt="">
                     <li class="list-group-item">
                       <h5 class="fw-bold" style="font-size: 22pt;">Pruebas de saliva</h5>
                       <p class="text-muted mb-0 fw-bold">
@@ -814,13 +820,13 @@
                   <li class="list-group-item">
                     <h5 class="fw-bold" style="font-size: 22pt;"">Pruebas de PCR:</h5>
                     <p class="text-muted mb-0 fw-bold">
-                      Las pruebas de PCR (reacción en cadena de la polimerasa) se realizan en un laborator
+                      Las pruebas de PCR (reacción en cadena de la polimerasa) se realizan en un laboratorio.
                     </p>
                 </li>
                 </ul>
                 <!-- Línea divisora de texto -->
                 <hr class="my-4 hr-light">
-                <p class="texto_principal text-muted">
+                <p class="texto_principal">
                   El período de ventana del VIH es el tiempo transcurrido entre la infección por el VIH y la aparición de anticuerpos contra el virus en la sangre. Esto significa que durante este período, una persona puede estar infectada con el VIH pero una prueba de detección de anticuerpos del VIH daría un resultado negativo. El período de ventana del VIH puede durar de 2 a 12 semanas, pero en promedio dura alrededor de 4 semanas. Es importante tener en cuenta que durante este período, la persona infectada con el VIH puede transmitir el virus a otras personas. Por lo tanto, es importante practicar medidas de prevención del VIH, como el uso de condones, durante todas las relaciones sexuales.
                 </p>
                 <!-- Línea divisora de texto -->
@@ -840,9 +846,10 @@
                 </p>
                 <!-- Línea divisora de texto -->
                 <hr class="my-4 hr-light">
-                <div class="container-fluid mt-5 p-5 text-white rounded banner shadow-5">
-                  <h1>VIVIR CON EL VIH</h1>
-                </div>
+                <h1 class="banner" id="vivir-vih">VIVIR CON EL VIH</h1>
+                <!-- Línea divisora de texto -->
+                <hr class="my-4 hr-light">
+                <img src="/assets/img/vivir-vih.jpg" alt="" width="100%%">
                 <!-- Línea divisora de texto -->
                 <hr class="my-4 hr-light">
                 <p class="texto_principal">
@@ -1648,9 +1655,7 @@
                    <!-- Línea divisora de texto -->
                    <hr class="my-4 hr-light">
 
-                  <div class="container-fluid text-white banner rounded" style="text-align: center; font-size: 20pt; padding: 3rem;">
-                    ESTIGMA Y LA DISCRIMINACIÓN DEL VIH
-                  </div>
+                 <h2 class="banner" id="estigma">ESTIGMA Y LA DISCRIMINACIÓN DEL VIH</h2>
                   <!-- Línea divisora de texto -->
                   <hr class="my-4 hr-light">
                   <h2>
@@ -1709,9 +1714,7 @@
                    <!-- Línea divisora de texto -->
                    <hr class="my-4 hr-light">
                   <!--BANNER-->
-                   <div class="container-fluid text-white banner rounded" style="text-align: center; font-size: 20pt; padding: 3rem;">
-                    ESTADÍSTICAS BÁSICAS
-                  </div>
+                   <h2 class="banner" id="estadis">ESTADÍSTICAS BÁSICAS</h2>
                   
                     <!--MAPA--> 
                     
@@ -3272,7 +3275,7 @@
 
 
             
-            <div class="col-sm-2">
+            <div class="col-md-2">
               <!--División-->
             </div> 
            
@@ -3283,11 +3286,6 @@
 
 
           
-          <!-- Resources -->
-
-          <script src="//cdn.amcharts.com/lib/5/themes/Animated.js"></script>
-          <script src="//cdn.amcharts.com/lib/5/themes/Micro.js"></script>
-
   
 </body>
 

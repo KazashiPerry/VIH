@@ -1,28 +1,5 @@
 
 
-// NavBar
-/* document.getElementById(".boton-menu").addEventListener("click", function(){
-  var parrafo = document.getElementById(".sideNav");
-  if (parrafo.classList.contains("collapse")) {
-      parrafo.classList.remove("collapse");
-  } else {
-      parrafo.classList.add("collapse");
-  }
-}); */
-
-/* const botonNav = document.querySelector('.boton-menu');
-const menuNav = document.querySelector('.sideNav');
-
-if (botonNav) {
-  botonNav.addEventListener('click', toggleMenu);
-}
-
-function toggleMenu() {
-  console.log("Click")
-  menuNav.classList.toggle('inactive');
-} */
-
-
 document.addEventListener("DOMContentLoaded", function() {
   // Seleccionar el botón y el elemento
   const boton = document.querySelector('#boton-toggle');
@@ -41,6 +18,105 @@ function toggleElement() {
         elemento.style.display = "none";
     }
 }
+
+
+
+// ScrollMenu
+document.addEventListener("DOMContentLoaded", function() {
+  // Seleccionar el botón y el elemento
+  const boton1 = document.querySelector('#Información');
+  const destino1 = document.querySelector('#basica');
+
+  // Agregar un evento click al botón
+  boton1.addEventListener('click', function() {
+      destino1.scrollIntoView();
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  // Seleccionar el botón y el elemento
+  const boton2 = document.querySelector('#Acerca');
+  const destino2 = document.querySelector('#acerca-vih');
+
+  // Agregar un evento click al botón
+  boton2.addEventListener('click', function() {
+      destino2.scrollIntoView();
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  // Seleccionar el botón y el elemento
+  const boton3 = document.querySelector('#Transmisión');
+  const destino3 = document.querySelector('#trans-vih');
+
+  // Agregar un evento click al botón
+  boton3.addEventListener('click', function() {
+      destino3.scrollIntoView();
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  // Seleccionar el botón y el elemento
+  const boton4 = document.querySelector('#Prevención');
+  const destino4 = document.querySelector('#preven');
+
+  // Agregar un evento click al botón
+  boton4.addEventListener('click', function() {
+      destino4.scrollIntoView();
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  // Seleccionar el botón y el elemento
+  const boton5 = document.querySelector('#Prueba');
+  const destino5 = document.querySelector('#prueba-vih');
+
+  // Agregar un evento click al botón
+  boton5.addEventListener('click', function() {
+      destino5.scrollIntoView();
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  // Seleccionar el botón y el elemento
+  const boton6 = document.querySelector('#Vivir');
+  const destino6 = document.querySelector('#vivir-vih');
+
+  // Agregar un evento click al botón
+  boton6.addEventListener('click', function() {
+      destino6.scrollIntoView();
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  // Seleccionar el botón y el elemento
+  const boton7 = document.querySelector('#Estigma');
+  const destino7 = document.querySelector('#estigma');
+
+  // Agregar un evento click al botón
+  boton7.addEventListener('click', function() {
+      destino7.scrollIntoView();
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  // Seleccionar el botón y el elemento
+  const boton8 = document.querySelector('#Estadisticas');
+  const destino8 = document.querySelector('#estadis');
+
+  // Agregar un evento click al botón
+  boton8.addEventListener('click', function() {
+      destino8.scrollIntoView();
+  });
+});
+
+
+
+
+
+
+
+
 // MAPA
 
 
