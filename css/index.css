@@ -1,20 +1,12 @@
-#chartdiv {
-  width: 100%;
-  height: 500px;
+@font-face {
+  font-family: 'Antipasto';
+  src: url('/assets/fonts/Antipasto-Pro-Regular-trial.ttf');
 }
-
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  padding: 0;
-  margin: 0;
-  background-color: #ffffff;
+  font-family: 'NombreDeFamilia', Arial, sans-serif;
 }
 
-#chartdiv {
-  width: 100%;
-  height: 80vh;
-}
 
 
 td:nth-child(1) {
@@ -37,7 +29,11 @@ td:nth-child(2) {
   font-size: 15pt;
 }
 
+
 .banner {
+  margin-top: 2rem;
+  padding: 3rem;
+  color: white;
   background-image: url('/assets/img/fondo_banner.png'); 
   background-size: cover;
   background-position: center;
@@ -61,13 +57,12 @@ td:nth-child(2) {
   font-weight: bold;
 }
 
-.texto_caja {
-  
-}
+
 
 td {
   text-align: center;
 }
+
 
 h2 {
   text-align: center;
@@ -83,20 +78,12 @@ h2 {
 
  
 #SideNavMenu {
-    padding-left: 25px
+  margin-top: 58px;
+  padding-left: 25px;
 }
 
 
-#sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 200px;
-    background-color: #333;
-    color: #fff;
-  }
-  
+
 
 /* Estilos del menú de navegación lateral */
 /* #sidebar {

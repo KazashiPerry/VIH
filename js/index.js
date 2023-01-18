@@ -1,44 +1,48 @@
-// Obtener todos los botones del menú
-const buttons = document.querySelectorAll('.sidebar-button');
 
 
+// NavBar
+/* document.getElementById(".boton-menu").addEventListener("click", function(){
+  var parrafo = document.getElementById(".sideNav");
+  if (parrafo.classList.contains("collapse")) {
+      parrafo.classList.remove("collapse");
+  } else {
+      parrafo.classList.add("collapse");
+  }
+}); */
+
+/* const botonNav = document.querySelector('.boton-menu');
+const menuNav = document.querySelector('.sideNav');
+
+if (botonNav) {
+  botonNav.addEventListener('click', toggleMenu);
+}
+
+function toggleMenu() {
+  console.log("Click")
+  menuNav.classList.toggle('inactive');
+} */
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  // Seleccionar el botón y el elemento
+  const boton = document.querySelector('#boton-toggle');
+  const elemento = document.querySelector('#elemento');
+
+  // Agregar un evento click al botón
+  boton.addEventListener('click', toggleElement);
+});
+
+
+// La función que hará aparecer y desaparecer el elemento
+function toggleElement() {
+    if (elemento.style.display === "none") {
+        elemento.style.display = "block";
+    } else {
+        elemento.style.display = "none";
+    }
+}
 // MAPA
 
-var map = AmCharts.makeChart("mapdiv",{
-    type: "map",
-    theme: "Animated",
-    projection: "mercator",
-    panEventsEnabled : true,
-    backgroundColor : "#535364",
-    backgroundAlpha : 1,
-    zoomControl: {
-    zoomControlEnabled : true
-    },
-    dataProvider : {
-    map : "worldHigh",
-    getAreasFromMap : true,
-    areas :
-    []
-    },
-    areasSettings : {
-    autoZoom : true,
-    color : "#B4B4B7",
-    colorSolid : "#84ADE9",
-    selectedColor : "#84ADE9",
-    outlineColor : "#666666",
-    rollOverColor : "#9EC2F7",
-    rollOverOutlineColor : "#000000"
-    }
-    });
-
-
-console.log(am5geodata_data_countries);
-
-console.log(AmCharts);
-
-console.log(AmCharts.maps);
-
-console.log(AmCharts.maps.worldHigh.svg.g.path);
 
 // Dataviz
 
@@ -48,3 +52,4 @@ var lists = {
 };
 
 var nombres = {};
+
