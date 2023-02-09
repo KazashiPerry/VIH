@@ -1,5 +1,6 @@
 
 
+
 document.addEventListener("DOMContentLoaded", function() {
   // Seleccionar el botón y el elemento
   const boton = document.querySelector('#boton-toggle');
