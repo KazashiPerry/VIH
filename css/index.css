@@ -1,14 +1,8 @@
 
 
-
-  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
-
-  
-
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Alegreya', serif;
 }
-
 
 
 td:nth-child(1) {
@@ -28,7 +22,7 @@ td:nth-child(2) {
   }
 
 .texto_lista {
-  font-size: 15pt;
+  font-size: 17pt;
 }
 
 
